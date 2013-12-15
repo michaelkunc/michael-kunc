@@ -4,269 +4,193 @@
 ***************
 */
 
-
 /*
 ************
 *=body
 ***********
 */
-
-body {
- background: #D0D0D0;
+ body {
+    background: #D0D0D0;
 }
-
 .container_12 {
- background:#F8F8F8;
+    background:#F8F8F8;
 }
-
-
 /*
-
 *****************
 *=nav
 ****************
 */
-
-nav {
- float: right;
- padding-top: 8px;
- margin-bottom: -15px;
- margin-right: 20px;
- opacity: 0.8;
+ nav {
+    float: right;
+    padding-top: 8px;
+    margin-bottom: -15px;
+    margin-right: 20px;
+    opacity: 0.8;
 }
-
-
 nav li {
- display: inline;
- padding: 4px;
- margin-right: -12px;
+    display: inline;
+    padding: 4px;
+    margin-right: -12px;
 }
-
-a {
- text-decoration: none;
- color: #686868;
- font-size: 16px;
-
+nav a {
+    text-decoration: none;
+    color: #686868;
+    font-size: 16px;
 }
-
 a:hover {
- text-decoration: underline;
- color: #000000 ;
+    text-decoration: underline;
+    color: #000000;
 }
-
-
 /*
 ****************
 =*header
 **************
 */
-
-header .grid_12 {
- background:#D0D0D0;
- opacity: 0.8;
+ header .grid_12 {
+    background:#D0D0D0;
+    opacity: 0.8;
 }
-
 h1 .clear {
-  float: left;
+    float: left;
 }
-
-
 h1 {
- margin-bottom: -10px;
- margin-top: 10px;
- color: #181818;
-
+    margin-bottom: -10px;
+    margin-top: 10px;
+    color: #181818;
 }
-
-
 h3 .clear {
- float: left;
+    float: left;
 }
-
-
 h3 {
- margin: 8px 0px 10px 0px;
- color: #404040 ;
- text-transform: lowercase;
+    margin: 8px 0px 10px 0px;
+    color: #404040;
+    text-transform: lowercase;
 }
-
-h1,h2,h3,p {
- padding: 3px;
+h1, h2, h3, p {
+    padding: 3px;
 }
-
-
 /*
 ****************
 =*main
 **************
 */
-
-h2 {
- font-size: 20px;
- color: #181818;
- margin: 40px 0px -15px 0px;
- border-bottom:thin solid #500000 ;
+ h2 {
+    font-size: 20px;
+    color: #181818;
+    margin: 40px 0px -15px 0px;
+    border-bottom:thin solid #500000;
 }
-
 p {
- margin-top: 30px;
+    margin-top: 30px;
 }
-
-
 blockquote {
- margin-top: 45px;
+    margin-top: 45px;
 }
-
 blockquote h4 {
-  font-size: 18px;
-  color: #181818;
-  padding-left: 3px;
-  text-transform: lowercase;
+    font-size: 18px;
+    color: #181818;
+    padding-left: 3px;
+    text-transform: lowercase;
 }
-
 blockquote img {
- margin-top: -20px;
- 
+    margin-top: -20px;
 }
-
-blockquote h5{
-  margin-top: 3px;
-  padding-left: 3px;
-  margin-bottom: 0px;
-  font-size: 15px;
- }
-
+blockquote h5 {
+    margin-top: 3px;
+    padding-left: 3px;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
 blockquote a {
- padding-left: 3px;
- font-size: 14px;
-
+    padding-left: 3px;
+    font-size: 14px;
 }
-
 /*
 *****************
 =*portfolio
 ***************
 */
-
-#portfolio h1 {
-   margin-bottom: 10px;
+ #portfolio h1 {
+    margin-bottom: 10px;
 }
-
 #portfolio h2 {
-   
-   padding: 0px;
+    padding: 0px;
 }
-
 #portfolio h3 {
-  text-transform: none;
-  padding: 0px;
-  margin-top: 20px;
-  font-size: 16px;
-  margin-bottom: 0px;
-  font-style: italic;
-  color: #686868;
-
+    text-transform: none;
+    padding: 0px;
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 0px;
+    font-style: italic;
+    color: #686868;
 }
-
-#portfolio h4{
-   margin-top: 0px;
-   font-size: 16px;
+#portfolio h4 {
+    margin-top: 0px;
+    font-size: 16px;
     margin-bottom: 0px;
     color: #686868;
 }
-
-#portfolio a{
+.grid_6 a {
     color:#686868;
-
+    text-decoration: none;
 }
-
 #portfolio h5 {
-   margin-top: 0px;
-   font-size: 16px;
-   color: #686868;
-   
+    margin-top: 0px;
+    font-size: 16px;
+    color: #686868;
 }
-
 .grid_12.bottom {
- margin-top:50px;
+    margin-top:50px;
 }
-
-span, a  {
- font-size: 16px;
- color: #101010 ;
-
+#soundcloud {
+    color: #101010;
+    font-size: 16px;
+    text-decoration: none;
 }
-
-span #soundcloud {
- color: #101010;
- font-size: 16px;
-}
-
 /*
 *******************
 *=cv
 ****************
 */
-
-
-#cv h3{
- margin:-4px 0px -30px 0px;
-
-}
-
-#cv h4 {
-  font-size: 18px;
-}
-
-a.email {
-   margin-left: 4px;
+ #cv h1 {
+    margin:10px 0px 5px 0px;
 }
 
 .grid_12.headings h4 {
-   margin: 30px 0px -10px -3px;
-  font-size: 26px;
-  border-bottom:thin solid #500000 ;
-
+    margin: 30px 0px -10px -3px;
+    font-size: 18px;
+    border-bottom:thin solid #500000;
 }
 
 #cv h5 {
- margin: 20px 0px 10px -2px;
+    margin: 20px 0px 10px -2px;
 }
-
 #cv p {
- font-size: 16px;
- margin: -5px 0px 10px 0px;
+    font-size: 16px;
+    margin: -5px 0px 10px 0px;
 }
 
-
-#resume {
- font-size: 25px;
- font-weight: bold;
- margin: 400px;
+.company a {
+    font-size: 16px;
+    color: #101010;
+    text-decoration: none;
 }
 
-#social {
-	margin-left: 4px;
-
+#fullcv {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 400px;
+    text-decoration: none;
+    color: #101010;
 }
 
-ul {
- list-style-type:none; 
- font-size: 16px;
- margin-left: -70px;
-
+a:hover {
+    text-decoration: underline;
+    color: #000000;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#fullcv:hover {
+   text-decoration: underline;
+    color: #000000; 
+}
